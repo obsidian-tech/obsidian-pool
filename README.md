@@ -1,1 +1,1 @@
-# opsidian-pool
+# obsidian-pool

@@ -268,3 +268,9 @@ h1 {
 	font-weight:700;
 	color: white;
 }
+
+h3 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.2em;
+	color: #605E5E;
+}

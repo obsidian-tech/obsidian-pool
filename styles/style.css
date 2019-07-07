@@ -30,7 +30,7 @@
 #comp-ihjax7ir {
 	position: relative;
 	margin: 8px 0px 8px calc((100% - 980px) * 0.5);
-	left: 996px;
+	left: 995px;
 	grid-area: 1 / 1 / 2 / 2;
 	justify-self: start;
 	align-self: start;
@@ -262,22 +262,3 @@
 	pointer-events: initial;
 }
 
-h1 {
-	font-family: 'Overpass', sans-serif;
-	font-size: 64px;
-	font-weight:700;
-	color: white;
-}
-
-h3 {
-	font-family: 'Overpass', sans-serif;
-	font-weight: 300;
-	color: #605E5E;
-	font-size: 24px;
-}
-
-h2 {
-	font-family: 'Overpass', sans-serif;
-	font-weight: 600;
-	font-size: 35px;
-}

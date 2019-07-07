@@ -271,6 +271,7 @@ h1 {
 
 h3 {
 	font-family: 'Overpass', sans-serif;
-	font-size: 1.2em;
+	font-weight: 300;
 	color: #605E5E;
+	font-size: 24px;
 }

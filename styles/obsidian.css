@@ -1,1 +1,24 @@
 
+/*========================/
+/		 HEADERS		  /
+/========================*/
+
+h1 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 64px;
+	font-weight:700;
+	color: white;
+}
+
+h3 {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 300;
+	color: #605E5E;
+	font-size: 24px;
+}
+
+h2 {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+}

@@ -4,6 +4,11 @@
 	position: relative;
 }
 
+#SITE_HEADER-placeholder {
+	height: 43px;
+	display: block;
+}
+
 #SITE_HEADERinlineContent-gridWrapper {
 	pointer-events: none;
 }
@@ -58,6 +63,27 @@
 #OBS_LOGO_SMALL {
 	object-position: 50% 50%;
 	height:34px
+}
+
+#OBS_LOGO {
+	object-position: 50% 50%;
+	width: 305px;
+	height: 264px;
+}
+
+#OBS_LOGO_INNER {
+	width: 310px;
+	height: 264px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#SITE_BANNER {
+	object-position: 50% 50%;
+	width: 1903px;
+	height: 575px;
+	object-fit: cover;
 }
 
 #MAIN {
@@ -241,7 +267,7 @@
 	pointer-events: none;
 }
 
-#mediair65a9sq31inlineContent-gridContainer {
+#GRID_CONTAINER {
 	position: static;
 	display: grid;
 	height: auto;
@@ -656,16 +682,6 @@
 .ca1link {
 	display: block;
 	overflow: hidden;
-}
-
-.ca1img {
-	overflow: hidden;
-}
-
-.ca1imgimage {
-	position: static;
-	box-shadow: #000 0 0 0;
-	user-select: none;
 }
 
 .AutoWidthAnchorSkin {

@@ -36,13 +36,36 @@
 	align-self: start;
 }
 
-#OBS_LOGO_SMALL {
+#OBS_LOGO_SMALL_OUTER {
+	width: 43px;
+	height: 35px;
 	position: relative;
 	margin: 4px 0px 4px calc((100% - 980px) * 0.5);
 	left: -433px;
 	grid-area: 1 / 1 / 2 / 2;
 	justify-self: start;
 	align-self: start;
+}
+
+#OBS_LOGO_SMALL_INNER {
+	width: 43px;
+	height: 35px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#OBS_LOGO_SMALL {
+	object-position: 50% 50%;
+	height:34px
+}
+
+#MAIN {
+	left: 0;
+	margin-left: 0;
+	width: 100%;
+	min-width: 980px;
+	top: 0;
 }
 
 #SITE_HEADERcenteredContent {

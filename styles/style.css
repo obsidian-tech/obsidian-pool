@@ -18,7 +18,7 @@
 	grid-template-columns: 100%;
 }
 
-#comp-ihj7y8mj {
+#SITE_TITLE {
 	position: relative;
 	margin: 6px 0px 6px calc((100% - 980px) * 0.5);
 	left: -381px;
@@ -27,7 +27,7 @@
 	align-self: start;
 }
 
-#comp-ihjax7ir {
+#NAV_BAR {
 	position: relative;
 	margin: 8px 0px 8px calc((100% - 980px) * 0.5);
 	left: 995px;
@@ -36,7 +36,7 @@
 	align-self: start;
 }
 
-#comp-jx7vdy49 {
+#OBS_LOGO_SMALL {
 	position: relative;
 	margin: 4px 0px 4px calc((100% - 980px) * 0.5);
 	left: -433px;
@@ -845,12 +845,14 @@
 	margin-bottom: 7px;
 }
 
-.style-iiqiortarepeaterButton {
-	height: 100%;
+.NAV_ITEM {
+	width: 75px;
+	height: 27px;
 	position: relative;
 	box-sizing: border-box;
 	display: inline-block;
 	cursor: pointer;
+	overflow: visible;
 	font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
 }
 
@@ -858,21 +860,23 @@
 	cursor: default !important;
 }
 
-.style-iiqiortarepeaterButtonlinkElement {
+.NAV_BUTTON {
 	display: inline-block;
 	height: 100%;
 	width: 100%;
 }
 
-.style-iiqiortarepeaterButton_gapper {
+.NAV_BUTTON_GAP {
 	padding: 0 5px;
 }
 
-.style-iiqiortarepeaterButtonlabel {
+.NAV_BUTTON_LABEL {
 	display: inline-block;
 	padding: 0 10px;
 	color: #605E5E;
 	transition: color 0.4s ease 0s;
+	text-align: center;
+	line-height: 27px
 }
 
 .style-iiqiortarepeaterButton[data-state~="drop"] {
@@ -880,16 +884,16 @@
 	display: block;
 }
 
-.style-iiqiortarepeaterButton[data-state~="drop"] .style-iiqiortarepeaterButtonlabel {
+.style-iiqiortarepeaterButton[data-state~="drop"] .NAV_BUTTON_LABEL {
 	padding: 0 .5em;
 }
 
-.style-iiqiortarepeaterButton[data-state~="over"] .style-iiqiortarepeaterButtonlabel,.style-iiqiortarepeaterButton[data-preview~="hover"] .style-iiqiortarepeaterButtonlabel {
+.style-iiqiortarepeaterButton[data-state~="over"] .NAV_BUTTON_LABEL,.style-iiqiortarepeaterButton[data-preview~="hover"] .NAV_BUTTON_LABEL {
 	color: #273B7B;
 	transition: color 0.4s ease 0s;
 }
 
-.style-iiqiortarepeaterButton[data-state~="selected"] .style-iiqiortarepeaterButtonlabel,.style-iiqiortarepeaterButton[data-preview~="active"] .style-iiqiortarepeaterButtonlabel {
+.style-iiqiortarepeaterButton[data-state~="selected"] .NAV_BUTTON_LABEL,.style-iiqiortarepeaterButton[data-preview~="active"] .NAV_BUTTON_LABEL {
 	color: #3B58B8;
 	transition: color 0.4s ease 0s;
 }

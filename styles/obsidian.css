@@ -27,3 +27,18 @@ h2 {
 /*=========================/
 /          BUTTONS         /
 /=========================*/
+
+
+
+/*=========================/
+/          LABELS          /
+/=========================*/
+
+.NAV_BUTTON_LABEL {
+	font-family: 'Overpass', sans-serif;
+	display: inline-block;
+	color: #605E5E;
+	transition: color 0.4s ease 0s;
+	text-align: center;
+	line-height: 27px
+}

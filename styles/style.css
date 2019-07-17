@@ -2,7 +2,6 @@
 	position: relative;
     z-index: 1198;
     height: 45px;
-    color: #000517;
     background-color: #0F1533;
     display: flex;
     -webkit-box-orient: horizontal;
@@ -18,7 +17,6 @@
 	display: flex;
 	flex-direction: row;
 	align-self: center;
-	position: absolute;
 	align-items: middle;
 	justify-content: space-between, center;
 	align-items: center;
@@ -72,12 +70,12 @@
 }
 
 #LOGIN_BUTTON {
-	background: #001DB0;
+	background: #1E2963;
 	margin-left: -1px;
 }
 
 #SIGNUP_BUTTON {
-	background: green;
+	background: #001163;
 }
 
 #OBS_LOGO_SMALL_OUTER {
@@ -99,7 +97,6 @@
 
 #OBS_LOGO_SMALL {
 	object-position: 50% 50%;
-	height:34px
 }
 
 #OBS_LOGO {
@@ -118,9 +115,10 @@
 
 #SITE_BANNER {
 	object-position: 50% 50%;
-	width: 1903px;
+	width: 100%;
 	height: 575px;
 	object-fit: cover;
+	position: fixed;
 }
 
 #MAIN {
@@ -505,9 +503,6 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(204, 204, 204, 0.3); 
-	border-top: 1px solid rgba(160, 160, 159, 1);
-	border-bottom: 0px solid rgba(160, 160, 159, 1);
 }
 
 .style-ihjaathybg {
@@ -1431,6 +1426,10 @@
 
 #soapAfterPagesContainerinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
 	pointer-events: initial;
+}
+
+#SITE_FOOTER {
+	background-color: #0F1533;
 }
 
 #SITE_FOOTERinlineContent {

@@ -2,8 +2,8 @@
 	position: relative;
     z-index: 1198;
     height: 45px;
-    color: white;
-    background-color: white;
+    color: #000517;
+    background-color: #0F1533;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -14,24 +14,15 @@
 
 #SITE_TITLE {
 	margin: 0 18px;
-	position: relative;
 	align-self: start;
-	position: relative;
-	grid-area: 1 / 1 / 2 / 2;
 	display: flex;
-	vertical-align: middle;
 	flex-direction: row;
 	align-self: center;
+	position: absolute;
+	align-items: middle;
+	justify-content: space-between, center;
+	align-items: center;
 	height: 45px;
-	position: relative;
-	top: 0px;
-	left: 0px;
-	vertical-align: middle;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	display: inline-block;
-	-webkit-box-pack: justify;
-	justify-content: space-between;
 }
 
 #NAV_BAR {
@@ -39,6 +30,7 @@
 	-webkit-box-pack: center;
 	-webkit-box-direction: normal;
 	-webkit-box-flex: 1;
+	align-items: center;
 	flex: 1;
 		flex-grow: 1;
 		flex-shrink: 1;
@@ -52,29 +44,49 @@
 	position: absolute;
 	flex-direction: row;
 	display: flex;
+	color: #00176A;
 }
-/*
-#SITE_HEADER {
-	position: relative;
+
+.ACCOUNT_BUTTONS {
+	top: 0;
+	right: 0;
+	bottom: 0;
 	height: 45px;
-	background-color: white;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
+	justify-content: center;
+	position: absolute;
 	flex-direction: row;
-	-webkit-box-pack: justify;
-	justify-content: space-between;
+	color: white;
+	padding: 0;
+	display: flex;
 }
-*/
+
+.ACCOUNT_BUTTON {
+	width: 100px;
+	height: 45px;
+	border: 0;
+}
+
+.ACCOUNT_LABEL {
+	color: white;
+	font-family: 'Overpass', sans-serif;
+}
+
+#LOGIN_BUTTON {
+	background: #001DB0;
+	margin-left: -1px;
+}
+
+#SIGNUP_BUTTON {
+	background: green;
+}
+
 #OBS_LOGO_SMALL_OUTER {
 	width: 43px;
-	height: 35px;
-	position: relative;
-	margin: 4px 0px 4px calc((100% - 980px) * 0.5);
+	height: 45px;
+	position: absolute;
 	left: -433px;
 	grid-area: 1 / 1 / 2 / 2;
-	justify-self: start;
-	align-self: start;
+	align-self: start, center;
 }
 
 #OBS_LOGO_SMALL_INNER {
@@ -901,17 +913,6 @@
 	margin-bottom: 7px;
 }
 
-.NAV_ITEM {
-	width: 75px;
-	height: 27px;
-	position: relative;
-	box-sizing: border-box;
-	display: inline-block;
-	cursor: pointer;
-	overflow: visible;
-	font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
-}
-
 .style-iiqiortarepeaterButton[data-state~="header"] a,.style-iiqiortarepeaterButton[data-state~="header"] div {
 	cursor: default !important;
 }
@@ -921,7 +922,6 @@
 	justify-content: center;
 	font-size: 14px;
 	padding: 0 14px;
-	line
 }
 
 .NAV_BUTTON_GAP {
@@ -1073,11 +1073,6 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-}
-
-.txtNew {
-	word-wrap: break-word;
-	text-align: start;
 }
 
 .txtNew_override-left * {

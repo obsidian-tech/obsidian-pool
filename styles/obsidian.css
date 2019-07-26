@@ -28,16 +28,75 @@ h2 {
 /          BUTTONS         /
 /=========================*/
 
-
-
-/*=========================/
-/          LABELS          /
-/=========================*/
-
-.NAV_BUTTON_LABEL {
+.NAV_BUTTON {
+	display: inline-block;
+	justify-content: center;
+	font-size: 14px;
+	padding: 0 14px;
 	font-family: 'Overpass', sans-serif;
+	text-transform: uppercase;
 	display: inline-block;
 	color: white;
 	transition: color 0.4s ease 0s;
 	text-align: center;
 }
+
+.NAV_BUTTON[data-state~="drop"] {
+	width: 100%;
+	display: block;
+}
+
+.NAV_BUTTON[data-state~="drop"] .NAV_BUTTON_LABEL {
+	padding: 0 .5em;
+}
+
+.NAV_BUTTON[data-state~="over"] .NAV_BUTTON_LABEL, .NAV_BUTTON:hover {
+	color: #273B7B;
+	transition: color 0.4s ease 0s;
+}
+
+.NAV_BUTTON:focus .NAV_BUTTON_LABEL,.NAV_BUTTON[data-preview~="active"] .NAV_BUTTON_LABEL {
+	font-weight: 300;
+}
+
+.ACCOUNT_BUTTONS {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 45px;
+	justify-content: center;
+	position: absolute;
+	flex-direction: row;
+	color: white;
+	padding: 0;
+	display: flex;
+}
+
+.ACCOUNT_BUTTON {
+	width: 100px;
+	height: 45px;
+	border: 0;
+}
+
+#LOGIN_BUTTON {
+	background: #1E2963;
+	margin-left: -1px;
+}
+
+#SIGNUP_BUTTON {
+	background: #001163;
+}
+
+/*=========================/
+/          LABELS          /
+/=========================*/
+
+.ACCOUNT_LABEL {
+	color: white;
+	font-family: 'Overpass', sans-serif;
+	text-transform: uppercase;
+}
+
+/*=========================/
+/           TEXT           /
+/=========================*/
